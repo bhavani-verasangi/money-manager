@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+.money-manager-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 786px) {
+  .money-manager-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  width: 100%;
+  margin: 10px;
+}
+
+.balance-img {
+  width: 64px;
+  height: 64px;
+  margin: 24px;
+}
+
+.balance-amount {
+  color: #cbd5e1;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.balance {
+  color: #7e858e;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  width: 100%;
+  margin: 10px;
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  width: 100%;
+  margin: 10px;
+}
